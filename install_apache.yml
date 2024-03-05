@@ -1,6 +1,6 @@
 ---
 - name: 安装httpd服务  
-  hosts: redhat_servers  
+  hosts: all  
   become: yes  
   tasks:  
     - name: 安装httpd软件包  
